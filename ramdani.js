@@ -1092,7 +1092,7 @@ break
        if (isBanned) return freply(mess.banned)
                txtt =`*Hai Kak* ${pushname} *Yang Baik*\n*Mau donasi?* Dikasih Syukur, Gak jadi Gpp :)`
 
-               buttons = [{buttonId: `${prefix}gopay`,buttonText:{displayText: 'GO-PAY'},type:1},{buttonId: `${prefix}dana`,buttonText:{displayText: 'DANA'},type:1},{buttonId: `${prefix}qris`,buttonText:{displayText: 'QRIS ALL PAY'},type:1}]
+               buttons = [{buttonId: `${prefix}infoig`,buttonText:{displayText: 'Follow Instagram'},type:1},{buttonId: `${prefix}youtube`,buttonText:{displayText: 'Follow Tiktok'},type:1},{buttonId: `${prefix}qris`,buttonText:{displayText: 'QRIS ALL PAY'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -1112,7 +1112,7 @@ break
                await sleep(1000)
                txtt =`*Hai Kak* ${pushname}\nItu Ownerku, Mau Ngpain Yaa?`
 
-               buttons = [{buttonId: '!youtube',buttonText:{displayText: 'yσυтυвє'},type:1},{buttonId:'!infoig',buttonText:{displayText:'ıηsтαgяαм'},type:1}]
+               buttons = [{buttonId: '!youtube',buttonText:{displayText: 'tiktok'},type:1},{buttonId:'!infoig',buttonText:{displayText:'instagram'},type:1}]
 
                buttonsMessage = {
                contentText: `${txtt}`,
@@ -1137,14 +1137,14 @@ break
 
     『 *BOT INFO* 』
 
-⛱ *Device* : xiaomi redmi 4A
-🗺 *Wa Version* : 2.22.3.77
-💬 *OS Version* : 10
-🌐 *Platfrom* : android/pc
-📳 *Mode* : > public mode <
-☢ *Prefix* : > multi prefix <
+⛱ *Device* : iPhone 13 Pro Max
+🗺 *Wa Version* : 22.7.78
+💬 *OS Version* : iOS 15
+🌐 *Platfrom* : Handphone
+📳 *Mode* : [public mode]
+☢ *Prefix* : [multi prefix]
 🔋 *baterai bot* : ${baterai}
-👨💻 *Name Creator* : sanBot
+👨💻 *Name Creator* : Ihsan
 
 
        『 *USER INFO* 』
@@ -1158,7 +1158,7 @@ break
 ⏰ *Waktu* : ${moment().utcOffset('+0700').format('HH:mm')}
 📅 *Tanggal* : ${moment.tz('Asia/Jakarta').format('DD/MM')}
 `
-               buttons = [{buttonId: `${prefix}allmenu`,buttonText:{displayText: 'ᴀʟʟᴍᴇɴᴜ'},type:1},{buttonId: `${prefix}command`,buttonText:{displayText: 'sɪᴍᴘᴇʟ ᴍᴇɴᴜ'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'ʀᴜʟᴇs'},type:1}]
+               buttons = [{buttonId: `${prefix}allmenu`,buttonText:{displayText: 'ᴀʟʟᴍᴇɴᴜ'},type:1},{buttonId: `${prefix}c`,buttonText:{displayText: 'sɪᴍᴘᴇʟ ᴍᴇɴᴜ'},type:1},{buttonId: `${prefix}rules`,buttonText:{displayText: 'ʀᴜʟᴇs'},type:1}]
 
                imageMsg = (await Ramdani.prepareMessageMedia(fs.readFileSync(`./media/foto/menu.jpg`), 'imageMessage', {thumbnail: fs.readFileSync(`./media/foto/menu.jpg`)})).imageMessage
 
@@ -2029,7 +2029,7 @@ if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
 freply(mess.wait)
 //DI APUS AWAS AJA REST API GUA OFF IN
-function _0xa39c(_0x55373c,_0x4f554b){var _0x6f350f=_0x6f35();return _0xa39c=function(_0xa39c38,_0x38fbeb){_0xa39c38=_0xa39c38-0x193;var _0x1c1ff0=_0x6f350f[_0xa39c38];return _0x1c1ff0;},_0xa39c(_0x55373c,_0x4f554b);}var _0x98b2d6=_0xa39c;(function(_0x3c89fb,_0x3c0da8){var _0x146795=_0xa39c,_0x15f157=_0x3c89fb();while(!![]){try{var _0x376827=parseInt(_0x146795(0x197))/0x1+-parseInt(_0x146795(0x196))/0x2+parseInt(_0x146795(0x193))/0x3*(-parseInt(_0x146795(0x19d))/0x4)+parseInt(_0x146795(0x199))/0x5*(-parseInt(_0x146795(0x19a))/0x6)+parseInt(_0x146795(0x195))/0x7+-parseInt(_0x146795(0x198))/0x8*(parseInt(_0x146795(0x19c))/0x9)+parseInt(_0x146795(0x194))/0xa;if(_0x376827===_0x3c0da8)break;else _0x15f157['push'](_0x15f157['shift']());}catch(_0x4fb779){_0x15f157['push'](_0x15f157['shift']());}}}(_0x6f35,0xd7373),freply(_0x98b2d6(0x19b)));function _0x6f35(){var _0xd7c541=['1628812jeDVJA','11978376xbAUoh','1549025vKiqSi','6NFQNcJ','_*SRIPT\x20ORI\x20BY\x20RAMDANI\x20OFFICIAL*_\x0a•\x20*LINK*\x0a•\x20*GITHUB*\x20:\x20https://github.com/isanbayo/v17\x0a•\x20*YOUTUBE*\x20:\x20sanBot','9EUOBqv','1711868cgIpPU','3fsRXCB','14268290YorAQW','6636119fcFvXR','1774132seWGmo'];_0x6f35=function(){return _0xd7c541;};return _0x6f35();}
+function _0xa39c(_0x55373c,_0x4f554b){var _0x6f350f=_0x6f35();return _0xa39c=function(_0xa39c38,_0x38fbeb){_0xa39c38=_0xa39c38-0x193;var _0x1c1ff0=_0x6f350f[_0xa39c38];return _0x1c1ff0;},_0xa39c(_0x55373c,_0x4f554b);}var _0x98b2d6=_0xa39c;(function(_0x3c89fb,_0x3c0da8){var _0x146795=_0xa39c,_0x15f157=_0x3c89fb();while(!![]){try{var _0x376827=parseInt(_0x146795(0x197))/0x1+-parseInt(_0x146795(0x196))/0x2+parseInt(_0x146795(0x193))/0x3*(-parseInt(_0x146795(0x19d))/0x4)+parseInt(_0x146795(0x199))/0x5*(-parseInt(_0x146795(0x19a))/0x6)+parseInt(_0x146795(0x195))/0x7+-parseInt(_0x146795(0x198))/0x8*(parseInt(_0x146795(0x19c))/0x9)+parseInt(_0x146795(0x194))/0xa;if(_0x376827===_0x3c0da8)break;else _0x15f157['push'](_0x15f157['shift']());}catch(_0x4fb779){_0x15f157['push'](_0x15f157['shift']());}}}(_0x6f35,0xd7373),freply(_0x98b2d6(0x19b)));function _0x6f35(){var _0xd7c541=['1628812jeDVJA','11978376xbAUoh','1549025vKiqSi','6NFQNcJ','_*SRIPT\x20ORI\x20BY\x20sanBot\x20official*_\x0a•\x20*LINK*\x0a•\x20*GITHUB*\x20:\x20https://github.com/isanbayo/v17\x0a•\x20*YOUTUBE*\x20:\x20sanBot','9EUOBqv','1711868cgIpPU','3fsRXCB','14268290YorAQW','6636119fcFvXR','1774132seWGmo'];_0x6f35=function(){return _0xd7c541;};return _0x6f35();}
 randommusic = fs.readFileSync(`./media/audio/${randomaudio}.mp3`)
 Ramdani.sendMessage(from, randommusic, MessageType.audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
 break
@@ -2142,7 +2142,7 @@ break
       case 'infoig':
       if (!isRegist) return freply(mess.regist)
       if (isBanned) return freply(mess.banned)
-             freply(`Follow Instagram Owner Ya : https://www.instagram.com/muhammadramdani196453`)
+             freply(`Follow Instagram Owner Ya : https://www.instagram.com/isanbayo`)
              break
 //casee nya
 case 'grupbot':
@@ -5074,7 +5074,7 @@ if (isBanned) return freply(mess.banned)
        case 'youtube': 
 if (!isRegist) return freply(mess.regist)
 if (isBanned) return freply(mess.banned)
-              freply(`*sanBot :*\n sanBot`)
+              freply(`*sanBot :*\n https://www.tiktok.com/@ihsan.phtml`)
               break
 case 'y': 
 if (!isRegist) return freply(mess.regist)
